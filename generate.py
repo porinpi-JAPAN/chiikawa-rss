@@ -21,7 +21,6 @@ def create_rss(title: str, article_url: str, description: str) -> str:
 <description>{escape(description)}</description>
 <item>
 <title>{escape(title)}</title>
-<link>{escape(article_url)}</link>
 <guid>{escape(article_url)}</guid>
 </item>
 </channel>
